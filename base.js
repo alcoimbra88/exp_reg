@@ -19,7 +19,14 @@ const arquivos = [
     'lista de compras.txt'
 ];
 
+//   <.+>.+<\/.+> 
+const html = '<p>Ola Mundo</p> <p>Ola de novo</p> '
+
+const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVXZ abcdefghijklmnopqrstuvxz @; 0123456789'
+
 module.exports = {
     texto,
-    arquivos
+    arquivos,
+    html,
+    alfabeto
 }
