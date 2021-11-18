@@ -22,11 +22,39 @@ const arquivos = [
 //   <.+>.+<\/.+> 
 const html = '<p>Ola Mundo</p> <p>Ola de novo</p> '
 
-const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVXZ abcdefghijklmnopqrstuvxz @; 0123456789'
+const alfabeto = 'ABCDEFGHIJKLMNOPQRSTUVXZ abcdefghijklmnopqrstuvxz @; 0123456789';
+
+const cpfs = `
+    Os CPFs são:
+    254.224.877-45 215.978.456-12 047.258.369-96
+
+
+    963.987.321-00
+`;
+
+const cpfs2 = `254.224.877-45
+215.978.456-12
+047.258.369-96
+963.987.32a.00
+`
+
+const ips = `
+    os IPs são:
+    0.0.0.0
+
+    192.168.0.25
+
+    10.10.5.12
+
+    255.255.255.255
+`;
 
 module.exports = {
     texto,
     arquivos,
     html,
-    alfabeto
+    alfabeto,
+    cpfs,
+    ips,
+    cpfs2
 }
